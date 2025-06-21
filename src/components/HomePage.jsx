@@ -10,20 +10,20 @@ const HomePage = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-200 via-indigo-200 to-purple-300 px-4">
-      <div className="bg-white bg-opacity-90 rounded-2xl shadow-2xl p-10 max-w-xl w-full text-center">
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-6 text-gray-800 font-sans">
-          Welcome to CCAT Practice
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-200 via-purple-200 to-pink-200 px-4 py-10">
+      <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-2xl p-10 md:p-16 max-w-2xl w-full text-center animate-fade-in">
+        <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-800 font-sans tracking-tight">
+          🧠 CCAT Practice
         </h1>
-        <p className="text-gray-700 text-md md:text-lg mb-8 leading-relaxed">
-          Practice 50 questions across Verbal, Math & Logic, Spatial, and Logical Reasoning.
-          You have 15 minutes. Let's sharpen your cognitive skills!
+        <p className="text-gray-700 text-lg md:text-xl mb-10 leading-relaxed font-medium">
+          Tackle 50 timed questions across <span className="font-semibold text-indigo-600">Verbal</span>, <span className="font-semibold text-indigo-600">Math</span>, and <span className="font-semibold text-indigo-600">Logic</span>.
+          You've got <span className="underline">15 minutes</span> — let’s test those brain muscles!
         </p>
         <button
           onClick={handleStartTest}
-          className="bg-indigo-600 text-white text-lg font-semibold px-8 py-4 rounded-full shadow-md hover:bg-indigo-700 hover:scale-105 transition transform duration-200"
+          className="mt-4 inline-block bg-purple-700  hover:bg-white text-white hover:text-black  py-2 px-4 rounded-br-3xl rounded-tr-3xl rounded-tl-3xl text-sm transition border hover:border-black"
         >
-          🚀 Start Test
+          🚀 Start the Test
         </button>
       </div>
     </div>
