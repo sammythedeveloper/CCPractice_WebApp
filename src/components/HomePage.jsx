@@ -6,7 +6,7 @@ const HomePage = () => {
   const navigate = useNavigate();
 
   const handleStartTest = () => {
-    navigate('/test');
+    navigate('/select-test');
   };
 
   return (
