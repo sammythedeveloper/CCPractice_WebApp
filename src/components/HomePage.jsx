@@ -21,7 +21,7 @@ const HomePage = () => {
         </p>
         <button
           onClick={handleStartTest}
-          className="mt-4 inline-block bg-purple-700  hover:bg-white text-white hover:text-black  py-2 px-4 rounded-br-3xl rounded-tr-3xl rounded-tl-3xl text-sm transition border hover:border-black"
+          className="mt-4 inline-block bg-purple-700  hover:bg-orange-600 text-white py-2 px-4 rounded-br-3xl rounded-tr-3xl rounded-tl-3xl text-sm transition border hover:border-black"
         >
           🚀 Start the Test
         </button>

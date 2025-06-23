@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/select-test" element={<PracticeSelection />} />
-        <Route path="/test" element={<TestPage />} />
+        <Route path="/test/:testId" element={<TestPage />} /> {/* <-- fixed */}
         <Route path="/result" element={<ResultPage />} />
       </Routes>
     </Router>
